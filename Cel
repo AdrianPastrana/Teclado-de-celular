@@ -1,0 +1,287 @@
+
+package cel;
+public class Cel 
+{
+    public static void main(String[] args) 
+    {
+        //System.out.println(character("pedro trujillo garcia"));
+        System.out.println(BotonesLetras("adrian"));
+    }
+
+    static public String BotonesLetras(String texto) 
+    {
+        String frase = texto.toLowerCase();
+        String resultado = "";
+        for (int i = 0; i < frase.length(); i++) 
+        {
+            switch (frase.charAt(i)) 
+            {
+                case 'a':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '2') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "2";
+                    break;
+                case 'b':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '2') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "22";
+                    break;
+                case 'c':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '2') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "222";
+                    break;
+                case 'd':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '3') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "3";
+                    break;
+                case 'e':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '3') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "33";
+                    break;
+                case 'f':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '3') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "333";
+                    break;
+                case 'g':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '4') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "4";
+                    break;
+                case 'h':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '4') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "44";
+                    break;
+                case 'i':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '4') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "444";
+                    break;
+                case 'j':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '5') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "5";
+                    break;
+                case 'k':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '5') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "55";
+                    break;
+                case 'l':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '5') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "555";
+                    break;
+                case 'm':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '6') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "6";
+                    break;
+                case 'n':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '6') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "66";
+                    break;
+                case 'o':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '6') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "666";
+                    break;
+                case 'p':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '7') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "7";
+                    break;
+                case 'q':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '7') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "77";
+                    break;
+                case 'r':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '7') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "777";
+                    break;
+                case 's':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '7') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "7777";
+                    break;
+                case 't':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '8') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "8";
+                    break;
+                case 'u':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '8') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "88";
+                    break;
+                case 'v':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '8') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "888";
+                    break;
+                case 'w':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '9') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "9";
+                    break;
+                case 'x':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '9') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "99";
+                    break;
+                case 'y':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '9') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "999";
+                    break;
+                case 'z':
+                    if (!resultado.isEmpty()) 
+                    {
+                        if (resultado.charAt(resultado.length() - 1) == '9') 
+                        {
+                            resultado += " ";
+                        }
+                    }
+                    resultado += "9999";
+                    break;
+                default:
+                    resultado += "0";
+                    break;
+            }
+        }
+        return resultado;
+    }
+}
+
